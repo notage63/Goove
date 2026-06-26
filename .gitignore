@@ -5,6 +5,9 @@ venv/
 # Secrets — never commit
 .env
 
+# Local-only full documentation (kept off GitHub on purpose)
+README.full.md
+
 # Python
 __pycache__/
 *.pyc
