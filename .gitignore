@@ -1,0 +1,14 @@
+# Local virtual environment
+.venv/
+venv/
+
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.vscode/

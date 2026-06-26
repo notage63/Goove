@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Server Room Temperature</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Server Room Temperature</h1>
+
+    <section id="status-banner" class="banner">Loading…</section>
+
+    <section class="readouts">
+      <div class="card">
+        <div class="label">Temperature</div>
+        <div id="temp-value" class="value">--</div>
+      </div>
+      <div class="card">
+        <div class="label">Humidity</div>
+        <div id="humidity-value" class="value">--</div>
+      </div>
+    </section>
+
+    <p id="updated" class="updated">Last updated: --</p>
+
+    <section class="chart-controls">
+      <button data-range="1" class="range-btn">24 h</button>
+      <button data-range="7" class="range-btn active">7 days</button>
+      <button data-range="30" class="range-btn">30 days</button>
+    </section>
+
+    <section class="chart-wrap">
+      <canvas id="chart"></canvas>
+    </section>
+
+    <footer>
+      <p>Auto-refreshes every 5 minutes. Data from the Govee cloud API.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

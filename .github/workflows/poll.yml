@@ -1,0 +1,53 @@
+name: Poll Govee thermometer
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub may delay scheduled runs under load.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+# Allow the job to commit the updated data files back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: poll-govee
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Poll thermometer
+        env:
+          GOVEE_API_KEY: ${{ secrets.GOVEE_API_KEY }}
+          GOVEE_DEVICE_SKU: ${{ secrets.GOVEE_DEVICE_SKU }}
+          GOVEE_DEVICE_ID: ${{ secrets.GOVEE_DEVICE_ID }}
+          TEMP_UNIT: ${{ vars.TEMP_UNIT || 'C' }}
+          ALERT_THRESHOLD_C: ${{ vars.ALERT_THRESHOLD_C || '30' }}
+          ALERT_RECOVERED: ${{ vars.ALERT_RECOVERED || '1' }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: python scripts/poll_govee.py --once
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/latest.json docs/data/readings.json docs/data/state.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "data: temperature reading $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
