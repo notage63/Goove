@@ -1,4 +1,4 @@
 {
-  "alerting": true,
-  "since": "2026-06-26T23:31:55.936182+00:00"
+  "alerting": false,
+  "since": null
 }
