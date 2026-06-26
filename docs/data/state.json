@@ -1,1 +1,4 @@
-{"alerting": false, "since": null}
+{
+  "alerting": false,
+  "since": null
+}
