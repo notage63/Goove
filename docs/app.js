@@ -1,7 +1,7 @@
 // Server-room temperature dashboard.
 // Reads the static JSON files written by scripts/poll_govee.py and renders them.
 
-const REFRESH_MS = 5 * 60 * 1000; // 5 minutes
+const REFRESH_MS = 15 * 60 * 1000; // 15 minutes (matches the polling cron)
 const STALE_MS = 45 * 60 * 1000; // flag data older than 45 min as stale
 const ALERT_THRESHOLD_C = 30; // keep in sync with ALERT_THRESHOLD_C in the workflow
 
