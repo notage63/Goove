@@ -2014,5 +2014,12 @@
     "temperature_c": 20.5,
     "unit": "C",
     "humidity": 60.3
+  },
+  {
+    "timestamp": "2026-07-22T12:59:04.469799+00:00",
+    "temperature": 20.7,
+    "temperature_c": 20.7,
+    "unit": "C",
+    "humidity": 59.3
   }
 ]
