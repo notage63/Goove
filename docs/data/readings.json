@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-07-18T04:15:05.236420+00:00",
-    "temperature": 21.0,
-    "temperature_c": 21.0,
-    "unit": "C",
-    "humidity": 62.5
-  },
-  {
     "timestamp": "2026-07-18T06:23:26.213733+00:00",
     "temperature": 20.7,
     "temperature_c": 20.7,
@@ -3596,5 +3589,12 @@
     "temperature_c": 20.8,
     "unit": "C",
     "humidity": 59.8
+  },
+  {
+    "timestamp": "2026-08-17T04:25:37.697795+00:00",
+    "temperature": 20.3,
+    "temperature_c": 20.3,
+    "unit": "C",
+    "humidity": 62.1
   }
 ]
