@@ -4639,5 +4639,12 @@
     "temperature_c": 23.0,
     "unit": "C",
     "humidity": 52.6
+  },
+  {
+    "timestamp": "2026-08-23T19:03:57.914121+00:00",
+    "temperature": 23.0,
+    "temperature_c": 23.0,
+    "unit": "C",
+    "humidity": 52.5
   }
 ]
