@@ -1,82 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T10:59:11.823357+00:00",
-    "temperature": 20.0,
-    "temperature_c": 20.0,
-    "unit": "C",
-    "humidity": 62.5
-  },
-  {
-    "timestamp": "2026-08-15T11:28:52.901347+00:00",
-    "temperature": 20.2,
-    "temperature_c": 20.2,
-    "unit": "C",
-    "humidity": 64.6
-  },
-  {
-    "timestamp": "2026-08-15T11:49:24.233616+00:00",
-    "temperature": 20.1,
-    "temperature_c": 20.1,
-    "unit": "C",
-    "humidity": 64.4
-  },
-  {
-    "timestamp": "2026-08-15T12:39:46.467684+00:00",
-    "temperature": 19.8,
-    "temperature_c": 19.8,
-    "unit": "C",
-    "humidity": 64.7
-  },
-  {
-    "timestamp": "2026-08-15T13:17:55.296006+00:00",
-    "temperature": 19.8,
-    "temperature_c": 19.8,
-    "unit": "C",
-    "humidity": 63.8
-  },
-  {
-    "timestamp": "2026-08-15T13:52:09.042716+00:00",
-    "temperature": 20.2,
-    "temperature_c": 20.2,
-    "unit": "C",
-    "humidity": 64.6
-  },
-  {
-    "timestamp": "2026-08-15T14:23:56.097428+00:00",
-    "temperature": 20.2,
-    "temperature_c": 20.2,
-    "unit": "C",
-    "humidity": 62.9
-  },
-  {
-    "timestamp": "2026-08-15T14:49:11.890093+00:00",
-    "temperature": 20.2,
-    "temperature_c": 20.2,
-    "unit": "C",
-    "humidity": 64.6
-  },
-  {
-    "timestamp": "2026-08-15T15:21:47.050786+00:00",
-    "temperature": 20.1,
-    "temperature_c": 20.1,
-    "unit": "C",
-    "humidity": 65.2
-  },
-  {
-    "timestamp": "2026-08-15T15:46:36.769786+00:00",
-    "temperature": 19.8,
-    "temperature_c": 19.8,
-    "unit": "C",
-    "humidity": 64.5
-  },
-  {
-    "timestamp": "2026-08-15T16:26:17.685005+00:00",
-    "temperature": 20.0,
-    "temperature_c": 20.0,
-    "unit": "C",
-    "humidity": 65.2
-  },
-  {
     "timestamp": "2026-08-15T16:51:44.498116+00:00",
     "temperature": 20.2,
     "temperature_c": 20.2,
@@ -3624,5 +3547,12 @@
     "temperature_c": 20.3,
     "unit": "C",
     "humidity": 62.3
+  },
+  {
+    "timestamp": "2026-09-14T16:35:57.209850+00:00",
+    "temperature": 20.7,
+    "temperature_c": 20.7,
+    "unit": "C",
+    "humidity": 62.1
   }
 ]
