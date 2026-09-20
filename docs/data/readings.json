@@ -1,40 +1,5 @@
 [
   {
-    "timestamp": "2026-08-21T12:51:02.407883+00:00",
-    "temperature": 20.7,
-    "temperature_c": 20.7,
-    "unit": "C",
-    "humidity": 63.2
-  },
-  {
-    "timestamp": "2026-08-21T13:46:52.004033+00:00",
-    "temperature": 20.7,
-    "temperature_c": 20.7,
-    "unit": "C",
-    "humidity": 63.2
-  },
-  {
-    "timestamp": "2026-08-21T14:36:49.240231+00:00",
-    "temperature": 20.9,
-    "temperature_c": 20.9,
-    "unit": "C",
-    "humidity": 63.5
-  },
-  {
-    "timestamp": "2026-08-21T15:14:33.831594+00:00",
-    "temperature": 20.7,
-    "temperature_c": 20.7,
-    "unit": "C",
-    "humidity": 63.9
-  },
-  {
-    "timestamp": "2026-08-21T15:51:32.515564+00:00",
-    "temperature": 20.6,
-    "temperature_c": 20.6,
-    "unit": "C",
-    "humidity": 63.1
-  },
-  {
     "timestamp": "2026-08-21T16:36:12.535377+00:00",
     "temperature": 20.7,
     "temperature_c": 20.7,
@@ -2357,5 +2322,12 @@
     "temperature_c": 20.5,
     "unit": "C",
     "humidity": 57.6
+  },
+  {
+    "timestamp": "2026-09-20T16:07:36.460130+00:00",
+    "temperature": 21.3,
+    "temperature_c": 21.3,
+    "unit": "C",
+    "humidity": 62.9
   }
 ]
