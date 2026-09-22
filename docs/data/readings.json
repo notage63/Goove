@@ -1,54 +1,5 @@
 [
   {
-    "timestamp": "2026-08-23T17:01:40.592107+00:00",
-    "temperature": 23.0,
-    "temperature_c": 23.0,
-    "unit": "C",
-    "humidity": 53.8
-  },
-  {
-    "timestamp": "2026-08-23T17:34:39.458840+00:00",
-    "temperature": 23.0,
-    "temperature_c": 23.0,
-    "unit": "C",
-    "humidity": 53.9
-  },
-  {
-    "timestamp": "2026-08-23T17:57:04.719625+00:00",
-    "temperature": 23.0,
-    "temperature_c": 23.0,
-    "unit": "C",
-    "humidity": 53.0
-  },
-  {
-    "timestamp": "2026-08-23T18:38:52.992775+00:00",
-    "temperature": 23.0,
-    "temperature_c": 23.0,
-    "unit": "C",
-    "humidity": 52.6
-  },
-  {
-    "timestamp": "2026-08-23T19:03:57.914121+00:00",
-    "temperature": 23.0,
-    "temperature_c": 23.0,
-    "unit": "C",
-    "humidity": 52.5
-  },
-  {
-    "timestamp": "2026-08-23T19:35:07.863631+00:00",
-    "temperature": 23.0,
-    "temperature_c": 23.0,
-    "unit": "C",
-    "humidity": 52.1
-  },
-  {
-    "timestamp": "2026-08-23T19:56:42.593098+00:00",
-    "temperature": 23.0,
-    "temperature_c": 23.0,
-    "unit": "C",
-    "humidity": 52.1
-  },
-  {
     "timestamp": "2026-08-23T20:29:59.957237+00:00",
     "temperature": 23.0,
     "temperature_c": 23.0,
@@ -1846,5 +1797,12 @@
     "temperature_c": 20.1,
     "unit": "C",
     "humidity": 59.6
+  },
+  {
+    "timestamp": "2026-09-22T20:01:42.472616+00:00",
+    "temperature": 21.5,
+    "temperature_c": 21.5,
+    "unit": "C",
+    "humidity": 52.3
   }
 ]
