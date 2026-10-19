@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-09-19T09:31:52.922673+00:00",
-    "temperature": 20.1,
-    "temperature_c": 20.1,
-    "unit": "C",
-    "humidity": 57.9
-  },
-  {
-    "timestamp": "2026-09-19T13:26:14.128928+00:00",
-    "temperature": 21.2,
-    "temperature_c": 21.2,
-    "unit": "C",
-    "humidity": 55.7
-  },
-  {
     "timestamp": "2026-09-19T16:42:16.125177+00:00",
     "temperature": 20.7,
     "temperature_c": 20.7,
@@ -1125,5 +1111,12 @@
     "temperature_c": 22.7,
     "unit": "C",
     "humidity": 47.2
+  },
+  {
+    "timestamp": "2026-10-19T14:53:50.172409+00:00",
+    "temperature": 20.5,
+    "temperature_c": 20.5,
+    "unit": "C",
+    "humidity": 54.2
   }
 ]
